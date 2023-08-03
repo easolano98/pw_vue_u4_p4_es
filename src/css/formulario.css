@@ -1,0 +1,52 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+
+    background-color: #9DBBAE;
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    /*grid-template-rows: repeat(3, 75px); sirve para movernos respecto a filas*/
+    box-shadow: 15px 15px 20px 5px hsla(0, 0%, 0%, 75%);
+    color: white;
+    text-align: left;
+
+}
+
+input {
+    margin: 5px;
+    border: none;
+    outline: none;
+    background-color: #E2DBBE;
+    padding: 7px;
+}
+
+label {
+    margin: 3px;
+}
+
+button{
+    background-color: #D5D6AA;
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #E2DBBE;
+    color: black;
+    border: none;
+    outline: none;
+}

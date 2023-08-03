@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+import router from './modules/estudiante/router/router'
+import "./css/formulario.css"
+createApp(App).use(router).mount('#app')
